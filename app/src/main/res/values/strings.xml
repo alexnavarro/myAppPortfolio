@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Portfolio</string>
+    <string name="my_nanodegree_apps">My Nanodegree Apps</string>
+    <string name="label_popular_movies">popular movies</string>
+</resources>
