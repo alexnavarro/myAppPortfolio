@@ -25,6 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
+        android:onClick="showToast"
         android:text="@string/label_popular_movies" />
 
     <Button
@@ -37,7 +38,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="8dp"
-        android:text="Stock Hawk" />
+        android:onClick="showToast"
+        android:text="@string/label_stock_hawk" />
 
     <Button
         android:id="@+id/btn_build_it_bigger"
@@ -49,7 +51,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="8dp"
-        android:text="Build it Bigger" />
+        android:onClick="showToast"
+        android:text="@string/label_build_it_bigger" />
 
     <Button
         android:id="@+id/btn_make_you_app_material"
@@ -61,7 +64,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="8dp"
-        android:text="Make Your App Material" />
+        android:onClick="showToast"
+        android:text="@string/label_make_your_app_material" />
 
     <Button
         android:id="@+id/btn_go_ubiquitous"
@@ -73,7 +77,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="8dp"
-        android:text="Go Ubiquitous" />
+        android:onClick="showToast"
+        android:text="@string/label_go_ubiquitous" />
 
     <Button
         android:id="@+id/btn_capstone"
@@ -85,6 +90,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="8dp"
-        android:text="Capstone " />
+        android:onClick="showToast"
+        android:text="@string/label_capstone" />
 
 </RelativeLayout>
